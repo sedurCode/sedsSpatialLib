@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="nYyi7L" name="sedsSpatialLib" projectType="library" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="Bh6Fyi" name="sedsSpatialLib">
+    <GROUP id="{ECF736FB-972B-3176-E059-94E0DEAD498A}" name="Source">
+      <GROUP id="{A494FD60-237C-604B-492F-AD9D97BFB3BA}" name="WDL">
+        <FILE id="d4kNic" name="convoengine.cpp" compile="1" resource="0" file="libs/WDL/WDL/convoengine.cpp"/>
+        <FILE id="I89xZi" name="convoengine.h" compile="0" resource="0" file="libs/WDL/WDL/convoengine.h"/>
+        <FILE id="PaRxF9" name="fft.c" compile="1" resource="0" file="libs/WDL/WDL/fft.c"/>
+        <FILE id="cAeGS1" name="fft.h" compile="0" resource="0" file="libs/WDL/WDL/fft.h"/>
+      </GROUP>
+      <FILE id="jS8JPZ" name="AmbisonicRotation.cpp" compile="1" resource="0"
+            file="Source/AmbisonicRotation.cpp"/>
+      <FILE id="bjxMM2" name="AmbisonicRotation.h" compile="0" resource="0"
+            file="Source/AmbisonicRotation.h"/>
+      <FILE id="GejRpR" name="AmbixLoader.cpp" compile="1" resource="0" file="Source/AmbixLoader.cpp"/>
+      <FILE id="vgqGVs" name="AmbixLoader.h" compile="0" resource="0" file="Source/AmbixLoader.h"/>
+      <FILE id="yooHg4" name="BinauralRenderer.cpp" compile="1" resource="0"
+            file="Source/BinauralRenderer.cpp"/>
+      <FILE id="GVc0po" name="BinauralRenderer.h" compile="0" resource="0"
+            file="Source/BinauralRenderer.h"/>
+      <FILE id="iYlHDj" name="utilities.h" compile="0" resource="0" file="Source/utilities.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="sedsSpatialLib"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="sedsSpatialLib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../neural/pluginframework/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../neural/pluginframework/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
