@@ -10,7 +10,7 @@
 
 #pragma once
 
-namespace AudioLab
+namespace sedsLibs
 {
 	void mat_trans(float* outmtx, float* inmtx, int rows, int cols)
 	{
@@ -54,5 +54,5 @@ namespace AudioLab
 			return ((((2 * (n - 1)) + 1) * x * legendreP(n - 1, x)) - ((n - 1) * legendreP(n - 2, x))) / n;
 	}
 
-} // namespace audiolab
+}//sedsLib
 
